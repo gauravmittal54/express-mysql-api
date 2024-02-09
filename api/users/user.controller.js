@@ -89,7 +89,6 @@ module.exports = {
 
     getTop200Users: (req, res) => {
         getTop200Users((err, results) => {
-            console.log("fdf")
             if (err) {
                 console.log(err);
                 return res.status(500).json({
