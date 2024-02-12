@@ -8,7 +8,7 @@ const doc = {
     title: 'User API',
     description: 'API documentation for managing users',
   },
-  host: 'localhost:3000',
+  host: global.serverUrl,
   basePath: '/api/users',
   schemes: ['http'],
   consumes: ['application/json'],
