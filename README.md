@@ -26,20 +26,20 @@ Source code : [Link](https://github.com/gauravmittal54/express-mysql-api/tree/ma
 - Clone the repository.
 - set up .env file in root directory with all below required values :
   
-  # The port on which your application will run
+  #### The port on which your application will run
   APP_PORT=3000
   
-  # The maximum number of connections to create at once (for MySQL)
+  #### The maximum number of connections to create at once (for MySQL)
   CONNECTION_LIMIT=10
-  # The name of your MySQL database
+  #### The name of your MySQL database
   DATABASE=your_database_name
-  # The host where your MySQL server is running
+  #### The host where your MySQL server is running
   HOST=your_mysql_host
-  # The port on which your MySQL server is running
+  #### The port on which your MySQL server is running
   MYSQL_PORT=3306
-  # The password for your MySQL user
+  #### The password for your MySQL user
   PASSWORD=your_mysql_password
-  # The username for your MySQL database
+  #### The username for your MySQL database
   USER=your_mysql_username
 
 - Install the dependencies using npm install.
