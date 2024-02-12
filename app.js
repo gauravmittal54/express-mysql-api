@@ -15,5 +15,5 @@ app.use('/api/users' , userRouter);
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
 app.listen(process.env.APP_PORT,() =>{
-    console.log('server running at port 3000')
+    console.log(`server running at port ${process.env.APP_PORT}`)
 })
