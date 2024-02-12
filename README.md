@@ -7,7 +7,6 @@ Source code : [Link](https://github.com/gauravmittal54/express-mysql-api/tree/ma
 ## Table of Contents
 
 - [Features](#features)
-- [Swagger-Doc](#swagger-Doc)
 - [Setup Instructions](#setup-instructions)
 - [API Endpoints](#api-endpoints)
 - [Dependencies](#dependencies)
@@ -21,10 +20,6 @@ Source code : [Link](https://github.com/gauravmittal54/express-mysql-api/tree/ma
 - get specific user based on userid
 - get current week leader board based on scores of users displaying top 200 users data
 - get last week leader board based on scores of users and country given in params
-
-## Swagger Doc
-[Link](https://scoreboardapi-kqb1.onrender.com/api-docs)
-
 
 
 ## Setup Instructions
