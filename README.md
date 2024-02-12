@@ -42,6 +42,7 @@ Source code : [Link](https://github.com/gauravmittal54/express-mysql-api/tree/ma
   #### The username for your MySQL database
   USER=your_mysql_username
 
+- Execute 'npm createDumpDbDetails.js' to dump data in database. 
 - Install the dependencies using npm install.
 - run swagger.js using npm swagger.js command to generate swagger_output.json
 - Start the server using npm start.
