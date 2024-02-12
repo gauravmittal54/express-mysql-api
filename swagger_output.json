@@ -5,9 +5,9 @@
     "description": "API documentation for managing users",
     "version": "1.0.0"
   },
-  "host": "https://scoreboardapi-kqb1.onrender.com/",
+  "host": "scoreboardapi-kqb1.onrender.com",
   "basePath": "/api/users",
-  "schemes": ["http"],
+  "schemes": ["httpS"],
   "consumes": ["application/json"],
   "produces": ["application/json"],
   "paths": {
