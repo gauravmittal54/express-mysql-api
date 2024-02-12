@@ -14,6 +14,17 @@ app.use('/api/users' , userRouter);
 
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
+app.get('/', (req, res) => {
+    res.json({
+      message: 'Welcome to the User API!',
+      redirects: {
+        'Swagger documentation':'/api-docs',
+        'Check current week leaderboard': '/api/users/currentWeekLeaderboard',
+        'Check lastweekleaderboard for India': '/api/users/lastWeekLeaderboard/IN',
+      },
+    });
+  });
+
 app.listen(process.env.APP_PORT,() =>{
     console.log(`server running at port ${process.env.APP_PORT}`)
 })
