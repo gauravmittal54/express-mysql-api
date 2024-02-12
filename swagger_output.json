@@ -7,7 +7,7 @@
   },
   "host": "scoreboardapi-kqb1.onrender.com",
   "basePath": "/api/users",
-  "schemes": ["httpS"],
+  "schemes": ["https"],
   "consumes": ["application/json"],
   "produces": ["application/json"],
   "paths": {
